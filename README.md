@@ -61,4 +61,4 @@ It is a React-NodeJs-Postges stack application
 For the Authentication with 42 and the connection with the database, a ".env" is needeed with the secret variables
 Contact us to get it and run the project with :  docker-compose up --build
 ```
-# project built with my two wonderful teammates Amina (https://github.com/ELKAMINA) & Anthony (https://github.com/BarrierAntho)
+- project built with my two wonderful teammates Amina (https://github.com/ELKAMINA) & Anthony (https://github.com/BarrierAntho)
