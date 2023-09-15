@@ -3,6 +3,11 @@
 This project is a full stack web app allowing a user to register, connect with friends, talk to friends and play with friends.
 It is a React-NodeJs-Postges stack application
 
+### How to use
+- In a terminal, type in *docker-compose up --build*
+- **Requirements** : a .env file that I'll provide if you contact me, for more info see end of this document
+- Open Chrome or Firefox and type in *http://localhost:3000*
+
 ### :adult: Registration and Updates interface
 
 - Implementation of OAuth to connect with 42 API
