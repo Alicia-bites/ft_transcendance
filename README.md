@@ -1,7 +1,7 @@
 # :ping_pong: Project Overview
 
 This project is a full stack web app allowing a user to register, connect with friends, talk to friends and play with friends.
-It is a N(est)R(eact)N(odejs)P(ostges) stack application
+It is a React-NodeJs-Postges stack application
 
 ### :adult: Registration and Updates interface
 
@@ -61,3 +61,4 @@ It is a N(est)R(eact)N(odejs)P(ostges) stack application
 For the Authentication with 42 and the connection with the database, a ".env" is needeed with the secret variables
 Contact us to get it and run the project with :  docker-compose up --build
 ```
+# project built with my two wonderful teammates Amina (https://github.com/ELKAMINA) & Anthony (https://github.com/BarrierAntho)
