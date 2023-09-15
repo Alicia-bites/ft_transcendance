@@ -1,0 +1,12 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.welcome{
+    color: rgba(0, 130, 160, 0.89);
+}
+

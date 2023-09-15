@@ -1,0 +1,21 @@
+.userprofile-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    /* width: 100%;
+    height: 100%; */
+    /* justify-content: space-around; */
+}
+
+.userprofile-header {
+    /* width: 100%; */
+    /* height: 10vh; */
+}
+
+.userprofile-middle {
+    display: flex;
+    flex-direction: column;
+    max-height: 100%;
+    overflow-y: auto;
+}

@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "noUnusedLocals": false,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./", // when you import or reference a module without specifying a relative path, TypeScript will look for the module starting from the "src" directory.
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "strict": true,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
+  },
+  "watchOptions": { 
+    "watchFile": "fixedpollinginterval",
+    "watchDirectory": "dynamicprioritypolling",
+    "fallbackPolling": "dynamicpriority" 
+  },
+}

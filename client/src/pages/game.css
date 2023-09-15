@@ -1,0 +1,260 @@
+.game {
+    width: 100%;
+    height: 100%;
+    /* background: linear-gradient(
+        180deg,
+        #07457e 0%,
+        rgba(0, 181, 160, 0.59) 90%
+    ); */
+}
+
+.pongWrapper {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: linear-gradient(
+        180deg,
+        #07457e 0%,
+        rgba(0, 181, 160, 0.59) 30%
+    );
+    /* DEBUG */
+    /* border: 5px solid green; */
+}
+
+/* .pongBannerOverview {
+    text-align: center;
+    display: table-row;
+    vertical-align: middle;
+    position: absolute;
+} */
+
+.pongBanner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10%;
+    max-height: 100px;
+    /* background: linear-gradient(
+        180deg,
+        #07457e 0%,
+        rgba(0, 181, 160, 0.59) 90%
+    ); */
+    color: white;
+    /* background: linear-gradient(
+            180deg,
+            #ffd700 0%,
+            rgba(0, 181, 160, 0.19) 50%
+        ); */
+    /* DEBUG */
+    /* border: 5px solid yellow; */
+}
+
+.pongBannerPlayerScore {
+    /* display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; */
+    display: grid;
+    width: 100%;
+    /* height: 100%; */
+    align-items: center;
+    text-align: center;
+    font-size: large;
+    font-family: "Press Start 2P";
+    letter-spacing: 3;
+    opacity: 0.9;
+    /* text-shadow: 0 0 10px #ff00f2, 0 0 20px #000000; */
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #0ff;
+    /* DEBUG */
+    /* border: 5px solid red; */
+}
+
+.pongBannerVersus {
+    grid-column: 2;
+    grid-row: 1;
+    font-size: xx-large;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #0ff;
+    /* DEBUG */
+    /* border: 5px solid white; */
+}
+
+.pongBannerPlayerScore1 {
+    grid-column: 1;
+    grid-row: 1;
+    /* DEBUG */
+    /* border: 5px solid pink; */
+}
+
+.pongBannerPlayerScore2 {
+    grid-column: 3;
+    grid-row: 1;
+    /* DEBUG */
+    /* border: 5px solid pink; */
+}
+
+.pongBannerPlayerName {
+    display: grid;
+    align-items: center;
+    width: 100%;
+    /* height: 100%; */
+    font-family: "Press Start 2P";
+    opacity: 0.9;
+    /* text-shadow: 0 0 10px #ff00f2, 0 0 20px #000000; */
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #0ff;
+    /* DEBUG */
+    /* border: 5px solid magenta; */
+}
+
+.pongBannerPlayerName1 {
+    text-align: left;
+    padding-left: 5px;
+    /* DEBUG */
+    /* border: 5px solid white; */
+}
+
+.pongBannerPlayerName2 {
+    text-align: right;
+    padding-right: 5px;
+    /* DEBUG */
+    /* border: 5px solid white; */
+}
+
+.pongBannerPlayerNameCurrent {
+    text-shadow: 0 0 10px #ff0000, 0 0 20px #000000, 0 0 30px #000,
+        0 0 40px #fff, 0 0 70px #fff, 0 0 80px #fff, 0 0 100px rgb(255, 234, 0),
+        0 0 150px rgb(255, 234, 0);
+}
+
+.pongGameSlice {
+    /* display: table-row-group; */
+    text-align: center;
+    vertical-align: middle;
+}
+
+.pongGameCanvas {
+    border: 10px solid black;
+    display: table;
+    width: 100%;
+    height: 80%;
+    position: absolute;
+}
+
+/* .pongHelpOverview {
+} */
+
+.pongHelp {
+    width: 100%;
+    height: 10%;
+    max-height: 100px;
+    /* background: linear-gradient(
+        180deg,
+        #07457e 0%,
+        rgba(0, 181, 160, 0.59) 90%
+    ); */
+    color: white;
+    text-align: center;
+    font-size: medium;
+    font-family: "Press Start 2P";
+    opacity: 0.9;
+    /* text-shadow: 0 0 10px #ff00f2, 0 0 20px #000000; */
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #0ff;
+    /* DEBUG */
+    /* border: 5px solid white; */
+}
+
+.endGameWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    justify-self: center;
+    color: white;
+    border: 10px solid black;
+}
+
+/* .wrapper {
+    display: table;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.container {
+    display: table-cell;
+    vertical-align: middle;
+}
+.canvas-container {
+    position: relative;
+    max-width: 1024px;
+    min-width: 320px;
+    margin: 0 auto;
+}
+.pongGame {
+    width: auto;
+    height: auto;
+    background-color: pink;
+} */
+
+/* Mobile */
+/* body::before {
+    display: none;
+    content: '{ "current": "small", "all": ["small"] }';
+} */
+/* Tablet */
+/* @media (min-width: 480px) {
+    body::before {
+        content: '{ "current": "medium", "all": ["small", "medium"] }';
+    }
+} */
+/* Desktop */
+/* @media (min-width: 640px) {
+    body::before {
+        content: '{ "current": "large", "all": ["small", "medium", "large"] }';
+    }
+} */
+
+/* @media all and (orientation: portrait) {
+    .pongGame {
+        background-color: aqua;
+    }
+}
+
+@media all and (orientation: landscape) {
+    .pongGame {
+        background-color: green;
+    }
+} */
+
+/* Exact aspect ratio */
+/* @media (aspect-ratio: 2/1) {
+    .pongGame {
+        background-color: pink;
+    }
+}
+
+@media (min-aspect-ratio: 16/9) {
+    .pongGame {
+        background-color: green;
+    }
+}
+
+@media (max-aspect-ratio: 8/5) {
+    .pongGame {
+        background-color: brown;
+    }
+}
+
+@media only screen and (max-aspect-ratio: 1/1) {
+    .pongGame {
+        background-color: yellow;
+    }
+}
+@media only screen and (min-aspect-ratio: 1/1) {
+    .pongGame {
+        background-color: blue;
+    }
+} */
