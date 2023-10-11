@@ -68,5 +68,6 @@ Contact us to get it and run the project with :  docker-compose up --build
 ```
 - project built with my two wonderful teammates Amina (https://github.com/ELKAMINA) & Anthony (https://github.com/BarrierAntho)
 
+![Screenshot from 2023-10-11 09-30-25](https://github.com/Alicia-bites/ft_transcendance/assets/51951741/13d12aef-3eff-4686-aeb3-f030251fc9b4)
 ![image](https://github.com/Alicia-bites/ft_transcendance/assets/51951741/b8b4209c-9b76-420f-b623-c88cbd14e43b)
 
